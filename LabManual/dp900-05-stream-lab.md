@@ -6,7 +6,9 @@ lab:
 
 # Azure Stream Analytics を調べる
 
-この演習では、Azure サブスクリプションに Azure Stream Analytics ジョブをプロビジョニングし、それを使用してリアルタイム データのストリームを処理します。
+この演習では、Azure Stream Analytics ジョブをプロビジョニングし、それを使用してリアルタイム データのストリームを処理します。
+
+※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 04 (CSS)"ラボで実施
 
 このラボは完了するまで、約 **15** 分かかります。
 

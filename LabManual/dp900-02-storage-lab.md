@@ -6,7 +6,9 @@ lab:
 
 # Azure Storage を調べる
 
-この演習では、自分の Azure サブスクリプションで Azure Storage アカウントをプロビジョニングし、それを使用してデータを格納するさまざまな方法を検討します。
+この演習では、Azure Storage アカウントをプロビジョニングし、それを使用してデータを格納するさまざまな方法を検討します。
+
+※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 03 (CSS)"ラボで実施
 
 このラボは完了するまで、約 **20** 分かかります。
 

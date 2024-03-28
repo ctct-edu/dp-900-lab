@@ -6,7 +6,9 @@ lab:
 
 # Azure Synapse Analytics を使用して Azure のデータ分析を調べる
 
-この演習では、自分の Azure サブスクリプションで Azure Synapse Analytics ワークスペースをプロビジョニングし、それを使用してデータの取り込みとクエリを実行します。
+この演習では、Azure Synapse Analytics ワークスペースをプロビジョニングし、それを使用してデータの取り込みとクエリを実行します。
+
+※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 04 (CSS)"ラボで実施
 
 このラボは完了するまで、約 **30** 分かかります。
 

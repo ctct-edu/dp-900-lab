@@ -8,13 +8,16 @@ lab:
 
 この演習では、Microsoft Power BI Desktop を使用して、対話型データの視覚化を含むデータ モデルとレポートを作成します。
 
+※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 04 (CSS)"ラボで実施
+
 このラボは完了するまで、約 **20** 分かかります。
 
 ### Power BI Desktop をインストールする
 
-Microsoft Power BI Desktop が Windows コンピューターにまだインストールされていない場合は、無料でダウンロードしてインストールできます。
-
 1. [https://aka.ms/power-bi-desktop](https://aka.ms/power-bi-desktop?azure-portal=true) から Power BI Desktop インストーラーをダウンロードします。
+
+   ※ローカルにインストール可能な場合はご自身の端末に、インストール不可の場合はSkillableの仮想マシン上にダウンロードして実行
+
 1. ファイルのダウンロードが完了したら、ファイルを開き、セットアップ ウィザードを使用してコンピューターに Power BI Desktop をインストールします。 このインストールには数分かかる場合があります。
 
 ## データのインポート

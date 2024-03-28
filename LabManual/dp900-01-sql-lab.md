@@ -6,7 +6,9 @@ lab:
 
 # Azure SQL Database について調べる
 
-この演習では、自分の Azure サブスクリプションで Azure SQL Database リソースをプロビジョニングし、SQL を使用してリレーショナル データベース内のテーブルに対してクエリを実行します。
+この演習では、 Azure SQL Database リソースをプロビジョニングし、SQL を使用してリレーショナル データベース内のテーブルに対してクエリを実行します。
+
+※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 02 (CSS)"ラボで実施
 
 このラボは完了するまで、約 **15** 分かかります。
 
