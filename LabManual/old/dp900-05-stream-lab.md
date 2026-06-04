@@ -8,7 +8,7 @@ lab:
 
 この演習では、Azure Stream Analytics ジョブをプロビジョニングし、それを使用してリアルタイム データのストリームを処理します。
 
-※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 04 (CSS)"ラボで実施
+※Skillable上の"Explore data analytics in Azure / Azure のリレーショナル データの詳細を理解する "ラボで実施
 
 このラボは完了するまで、約 **15** 分かかります。
 

@@ -8,7 +8,7 @@ lab:
 
 この演習では、Microsoft Power BI Desktop を使用して、対話型データの視覚化を含むデータ モデルとレポートを作成します。
 
-※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 04 (CSS)"ラボで実施
+※Skillable上の"Explore data analytics in Azure / Azure のリレーショナル データの詳細を理解する "ラボで実施
 
 このラボは完了するまで、約 **20** 分かかります。
 

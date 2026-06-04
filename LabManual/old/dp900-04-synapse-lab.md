@@ -8,7 +8,7 @@ lab:
 
 この演習では、Azure Synapse Analytics ワークスペースをプロビジョニングし、それを使用してデータの取り込みとクエリを実行します。
 
-※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 04 (CSS)"ラボで実施
+※Skillable上の"Explore data analytics in Azure / Azure のリレーショナル データの詳細を理解する "ラボで実施
 
 このラボは完了するまで、約 **30** 分かかります。
 
@@ -18,6 +18,7 @@ Azure Synapse Analytics を使用するには、Azure サブスクリプショ�
 
 1. Azure portal の **[ホーム]** ページで、**[&#65291; リソースの作成]** アイコンを使用して、新しいリソースを作成します。
 2. *Azure Synapse Analytics* を検索し、次の設定を使用して、新しい **Azure Synapse Analytics** リソースを作成します。
+    
     - **[サブスクリプション]**:既存のサブスクリプション（選択済み）
         - **リソース グループ**: ResourceGroup1（作成済み）
         - **管理対象リソース グループ**: 任意の名称を入力
@@ -36,9 +37,9 @@ Azure Synapse Analytics を使用するには、Azure サブスクリプショ�
     - **Data Lake Storage Gen 2**: サブスクリプションから
         - **アカウント名**: **新規作成**（一意の名前 (例: "datalake<your_name>") の新しいアカウントを作成します）
         - **アカウント名**: **新規作成**（*一意の名前 (例: "fs<your_name>") の新しいファイル システムを作成します*）
-
+    
     > **注**: Synapse Analytics ワークスペースには、Azure サブスクリプションに 2 つのリソース グループが必要です。1 つは明示的に作成したリソース用で、もう 1 つはサービスによって使用される管理対象リソース用です。 また、データ、スクリプト、その他のアーティファクトを格納するための Data Lake ストレージ アカウントも必要です。
-
+    
 3. これらの詳細を入力したら、**[確認と作成]** を選択し、**[作成]** を選択して、ワークスペースを作成します。
 4. ワークスペースが作成されるまで待ちます。これには 5 分程度かかる場合があります。
 5. デプロイが完了したら、作成されたリソース グループにアクセスして、Synapse Analytics ワークスペースと Data Lake ストレージ アカウントが含まれていることを確認します。
