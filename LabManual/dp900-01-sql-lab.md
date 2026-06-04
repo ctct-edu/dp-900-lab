@@ -8,15 +8,13 @@ lab:
 
 この演習では、 Azure SQL Database リソースをプロビジョニングし、SQL を使用してリレーショナル データベース内のテーブルに対してクエリを実行します。
 
-※Skillable上の"DP-900T00-A Microsoft Azure Data Fundamentals [Cloud Slice Provided] JAPANESE, Learning Path 02 (CSS)"ラボで実施
+※Skillable上の"Explore relational data in Azure/ Azure でのリレーショナル データの検証 "ラボで実施
 
 このラボは完了するまで、約 **15** 分かかります。
 
 ## Azure SQL Database リソースをプロビジョニングする
 
-1. [Azure portal](https://portal.azure.com?azure-portal=true) 上部の検索バーから、**[Azure SQL]** を検索して選択します。 表示された **[Azure SQL]** ブレードで**[+作成]** を選択します。
-
-1. 使用可能な Azure SQL のオプションを確認し、**[Azure SQL Database]** タイルで **[オプションの表示]** が選択して、**[SQL データベースの作成]** を選択します。
+1. [Azure portal](https://portal.azure.com?azure-portal=true) 上部の検索バーから、**[Azure SQL Database]** を検索して選択します。 表示された **[Azure SQL | SQL databases]** ブレードで**[+作成]** からSQLデータベースを選択します。
 
 1. **[SQL データベースの作成]** ページに次の値を入力し、他のすべてのプロパティは既定の設定のままにします。
     - **サブスクリプション**:既定のサブスクリプションを使用（選択済み）
@@ -60,27 +58,23 @@ lab:
 
     ![[SQL Database] ページが表示されている Azure portal のスクリーンショット。](images//sql-database-portal.png)
 
-1. ページの左側のペインで、**[クエリ エディター (プレビュー)]** を選択し、サーバー用に指定した管理者のログインとパスワードを使用してサインインします。
+1. ページの左側のペインで、**[クエリ エディター (プレビュー)]** を選択し、 **[SQL認証]** を選択したサーバー用に指定した管理者のログインとパスワードを使用してサインインします。
    
                   "クライアント IP アドレスが許可されていないことを示すエラー メッセージが表示された場合は、メッセージの最後にある [Allowlist IP ...] (許可リスト IP...) リンクを選択してアクセスを許可し、もう一度サインインします (以前にご自身のコンピューターのクライアント IP アドレスをファイアウォール規則に追加していますが、ネットワーク構成によっては、クエリ エディターが異なるアドレスから接続されることがあります)。"
-    
-    クエリ エディターは次のようになります。
-    
-    ![クエリ エディターが表示されている Azure portal のスクリーンショット。](images//query-editor.png)
 
-1. **テーブル** フォルダーを展開し、データベース内のテーブルを表示します。
+1. 画面左側のExplorerにてAdventureWorks - SalesLT内にある **テーブル** フォルダーを展開し、データベース内のテーブルを表示します。
 
-1. **[クエリ 1]** ペインで、次の SQL コードを入力します。
+1. **[新しいクエリ]** ボタンをクリックして、次の SQLを入力します。
 
     ```sql
     SELECT * FROM SalesLT.Product;
     ```
 
-1. 入力範囲の上にある **[&#9655; 実行]** を選択して実行し、結果を表示します。**SalesLT.Product** テーブルにあるすべての行のすべての列が含まれています。
+1. 入力範囲の上にある **[&#9655; Run(実行)]** をクリックして実行し、結果を表示します。**SalesLT.Product** テーブルにあるすべての行のすべての列が含まれています。
 
     ![クエリ エディターにクエリの結果が表示されている Azure portal のスクリーンショット。](images//sql-query-results.png)
 
-1. SELECT ステートメントを次のコードに置き換え、 **[&#9655; 実行]** を選択して新しいクエリを実行し、結果を確認します (**ProductID**、**Name**、**ListPrice**、**ProductCategoryID** の各列のみが含まれます)。
+1. SELECT ステートメントを次のSQLに置き換え、 **[&#9655; Run]** を選択して新しいクエリを実行し、結果を確認します (**ProductID**、**Name**、**ListPrice**、**ProductCategoryID** の各列のみが含まれます)。
 
     ```sql
     SELECT ProductID, Name, ListPrice, ProductCategoryID
